@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASIC STYLES */
+body {
+  font-family: "Bitter", serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffe9a1;
+  color: #333;
+}
+
+/* HEADER & TITLE */
+h1 {
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  margin-top: 30px;
+}
+
+h3 {
+  color: black;
+  margin-top: 20px;
+}
+
+/* TEXT EMPHASIS */
+p strong {
+  color: #000;
+}
+
+/*.highlight {
+      background-color: darkorange;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-weight: bold;
+    }*/
+
+.theory-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.theory-list li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+/* CONCLUSION */
+.conclusion {
+  background-color: #FFBAA1;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 8px solid #E8A88F;
+  margin-top: 40px;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px dashed black;
+}
+
+/* COMMENT SECTION STYLES */
+.comments-section {
+  margin-top: 50px;
+  padding: 20px 0;
+  border-top: 1px dashed black;
+}
+
+.comments-section h2 {
+  color: black;
+  font-weight: 800;
+  border-left: none;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+/* Comment Form */
+.comment-form input[type="text"],
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: inherit;
+  outline: none;
+  color: black;
+  background-color: #ffe9a1;
+}
+
+input::placeholder, textarea::placeholder{
+  color: black;
+}
+
+.comment-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.comment-form button {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.comment-form button:hover {
+  background-color: #ffe9a1;
+  color: black;
+}
+
+/* Individual Comments */
+.comment {
+  margin-top: 20px;
+  box-shadow: 1px 2px 2px 2px;
+  background: #ffe9a1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.comment-meta {
+  font-size: 0.9em;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.comment-author {
+  font-weight: 900;
+  color: #000;
+}
+
+.comment-data{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+
+footer p {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  padding: 20px;
+  text-align: center;
+}

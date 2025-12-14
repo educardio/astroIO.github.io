@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe9a1;
+  padding: 0 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  margin-top: 60px;
+  font-size: 4rem;
+  font-family: "Bitter", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
+
+.header-content {
+  position: relative;
+}
+
+.coma {
+  position: absolute;
+  z-index: 0;
+  font-size: 4rem;
+  color: #FFBAA1;
+  top: 0;
+  left: 0;
+}
+
+.main-image img {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 120px;
+}
+
+.card{
+  background-color: #ffe9a1;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 1px 1px 1px;
+}
+
+.card img{
+  border-radius: 10px;
+}
+
+.card1 {
+  rotate: -4deg;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffe9a1;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 1px 1px 1px;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+}
+
+.card2 {
+  margin-top: 7px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffe9a1;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 1px 1px 1px;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+}
+
+.card1 img {
+  width: 15vw;
+  height: 18vw;
+  border-radius: 10px;
+}
+
+.card2 img {
+  width: 15vw;
+  height: 18vw;
+  border-radius: 10px;
+}
+
+.tag {
+  background-color: #FFBAA1;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-family: "Bitter", serif;
+}
+
+.source {
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+.time{
+  font-size: 0.8rem;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+}
+
+.card-head {
+  font-size: 0.85rem;
+  line-height: 3;
+}
+
+.blog-data{
+  padding: 5px 0;
+}
+
+.blog-tags{
+  margin-top: 5px;
+}
+
+.sub-heading {
+  padding-top: 260px;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+}
+
+.mark {
+  background-color: darkorange;
+  padding: 3px;
+  font-style: italic;
+}
+
+a button{
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 12px 35px;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+  transition: transform 0.5s ease-in;
+}
+
+a button:hover{
+  background-color: #ffe9a1;
+  color: black;
+  transform: scaleX(1.05);
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.articles{
+  display: grid;
+  gap: 20px;
+}
+
+.image-section img{
+  width: 100%;
+}
